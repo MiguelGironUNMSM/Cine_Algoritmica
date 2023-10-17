@@ -1,0 +1,65 @@
+.nav{
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: brown;
+}
+/* Alteramos las cajas*/
+
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    margin-right: 80px;
+}
+
+/* Alteramos en texto de a*/
+.nav__li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav__li:hover > a{
+    color: rgb(192, 115, 20);
+}
+/* Alteramos los iconos*/
+.nav__li i{
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 2px;
+}
+.nav__li:hover {
+    color: rgb(148, 84, 7);
+}
+
+.space{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+.footer{
+    background-color: brown;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.footer__li{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    margin-right: 80px;
+}
+.footer__li:hover {
+    color: rgb(148, 84, 7);
+}
+.footer__li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer__li:hover >a{
+    color: rgb(148, 84, 7);
+}
+.nav__li i{
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 2px;
+}
