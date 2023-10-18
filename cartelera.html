@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Mi blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="estilo/Normalize.css"> 
+        <link rel="stylesheet" href="estilo/cartelera_sty.css">
+        <!--Obteniendo Fuente deseada-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+        <!--Obteniendo Iconos-->
+        <script src="https://kit.fontawesome.com/ecb429a0bb.js" crossorigin="anonymous"></script>
+    
+        <title>Cartelera</title>
     </head>
     <body>
         <header>
-            <h1>Mi blog</h1>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"><i class="fa-solid fa-house-chimney"></i><a href="index.html">Inicio</a></li>
+                    <li class="nav__li"><i class="fa-solid fa-film"></i><a href="cartelera.html" >Cartelera</a></li>
+                    <li class="nav__li"><i class="fa-solid fa-cookie"></i><a href="dulceria/dulceria.html">Dulcería</a></li>
+                    <li class="nav__li"><i class="fa-solid fa-ticket"></i><a href="compra/compra.html">Comprar</a></li>
+                    <li class="nav__li"><i class="fa-solid fa-magnifying-glass"></i><a href="conocer/conocer.html">Conócenos</a></li>
+                </ul>
+            </nav>
+            <!-- <h1>Mi blog</h1>
             <nav>
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Acerca de</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
-            </nav>
+            </nav> -->
         </header>
-        <main>
+        <!-- <main>
             <article>
                 <h2>Titulo del primer post</h2>
                 <p>Contenido del primer post.</p>
@@ -25,9 +46,21 @@
                 <p>Contenido del segundo post.</p>
                 <p>Segundo párrafo del segundo post.</p>
             </article>
-        </main>
-        <footer>
+        </main> -->
+        <!-- <footer>
             <p>Derechos reservados © 2021</p>
+        </footer> -->
+        <div class="space">
+        
+        </div>
+        <footer class="footer">
+            <ul class="footer__ul">
+                <li class="footer__li"><i class="fa-brands fa-square-facebook"></i><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li class="footer__li"><i class="fa-brands fa-square-instagram"></i><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li class="footer__li"><i class="fa-brands fa-tiktok"></i><a href="index.html" target="_blank">TikTok</a></li>
+                <li class="footer__li"><i class="fa-solid fa-envelope-open-text"></i><a href="index.html" target="_blank">Gmail</a></li>
+                <li class="footer__li">Derechos reservados © 2023</li>
+            </ul>
         </footer>
     </body>
 </html>
