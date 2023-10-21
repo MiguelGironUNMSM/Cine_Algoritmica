@@ -3,13 +3,13 @@
     background-color: #490209;
     width: 100vw;
     position: fixed;
-    top: -5px;
+    top: -0.1em;
     z-index: 100;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 /* Alteramos las cajas*/
 body{
-    padding-top: 50px;
+    padding-top: 4em;
     background-color: #aa0414;
 }
 .nav__li{
@@ -44,7 +44,7 @@ body{
     margin-top: 25px;
     display: block;
     
-    height: 150vh;
+    height: 105vh;
 }
 
 .footer{
@@ -114,6 +114,7 @@ body{
     background: #490209;
     color: white;
     width: 5em;
+    border-radius: 30%;
 }
 .canchita__buttom:hover{
     background: rgb(192, 115, 20);
