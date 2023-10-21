@@ -5,11 +5,12 @@
     position: fixed;
     top: -5px;
     z-index: 100;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 /* Alteramos las cajas*/
 body{
     padding-top: 50px;
-    background-color: rgb(148, 128, 104);
+    background-color: #aa0414;
 }
 .nav__li{
     display: inline-block;
@@ -25,7 +26,7 @@ body{
     font-size: 2em;
 }
 .nav__li:hover > a{
-    color: #310106;
+    color: rgb(192, 115, 20);
 }
 /* Alteramos los iconos*/
 .nav__li i{
@@ -86,4 +87,35 @@ body{
     font-size: 1.5em;
     text-align: center;
     color: white;
+}
+.canchita{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    width: 20vw;
+    height: 60vh;
+    margin: 1.5em;
+    padding-top: 2em;
+    outline: 2px solid #490209;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5%;
+}
+.canchita h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #490209;
+    margin-bottom: 1em;
+}
+.canchita img{
+    width: 12em;
+}
+.canchita__buttom{
+    background: #490209;
+    color: white;
+    width: 5em;
+}
+.canchita__buttom:hover{
+    background: rgb(192, 115, 20);
+    
 }
